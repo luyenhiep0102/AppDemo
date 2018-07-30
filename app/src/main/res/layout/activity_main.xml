@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#d43c05"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="regardless"
+            android:textColor="#f9f9f9"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="/riˈgärdləs/"
+            android:textColor="#f9f9f9"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Không quan tâm"
+            android:textSize="20dp"
+            android:textColor="#f9f9f9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ScrollView
+        android:background="#c7c7c7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/icon_lock_off"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Screen Lock"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/smallwindow_off"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Screen Lock"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/notify_off"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Screen Lock"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnTatQc"
+                    android:layout_marginTop="5dp"
+                    android:text="Tắt quảng cáo"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:padding="3dp"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/icon_remove_ad"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnTuVung"
+                    android:layout_marginTop="5dp"
+                    android:text="Từ vựng theo chủ đề"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:padding="3dp"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/icon_practice"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnHocTu"
+                    android:layout_marginTop="5dp"
+                    android:text="Học từ (Đã đánh dấu)"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:padding="3dp"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/icon_star"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnCaiDat"
+                    android:layout_marginTop="5dp"
+                    android:text="Cài đặt"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:padding="3dp"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/icon_setting"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnThemTu"
+                    android:layout_marginTop="5dp"
+                    android:text="Thêm từ"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:padding="3dp"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/add"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnHuongDan"
+                    android:layout_marginTop="5dp"
+                    android:text="Hướng dẫn sử dụng hiệu quả"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:padding="3dp"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/ic_help"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnLikePages"
+                    android:layout_marginTop="5dp"
+                    android:text="Like Fanpage"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:padding="3dp"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/fb"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnGopY"
+                    android:layout_marginTop="5dp"
+                    android:text="Góp ý"
+                    android:paddingLeft="10dp"
+                    android:gravity="left|center"
+                    android:padding="3dp"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/icon_feedback"
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

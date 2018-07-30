@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7c7c7"
+    android:orientation="vertical"
+    tools:context=".ThemTuActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppThemeThem"
+        android:background="#00e226"
+        >
+    </android.support.v7.widget.Toolbar>
+
+
+
+        <ScrollView
+            android:layout_margin="8dp"
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Từ mới(*)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_edt_them"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Nghĩa rút gọn (*)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_edt_them"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Nghĩa đầy đủ (*)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                     android:padding="10dp"
+                     android:layout_margin="5dp"
+                     android:background="@drawable/shape_edt_them"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_marginTop="8dp"
+                     android:layout_marginLeft="5dp"
+                     android:text="Chọn Chủ đề"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </Spinner>
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Hoặc nhập chủ đề mới"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_edt_them"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Phiên âm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_edt_them"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Ví dụ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_edt_them"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Nghĩa ví dụ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_edt_them"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:textColor="@color/colorWhite"
+                    android:text="Thêm Từ"
+                    android:background="@color/colorGreenLight"
+                    android:layout_width="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
